@@ -332,6 +332,10 @@ padding-left: 24px;
 padding-right: 24px;
 }
 
+.portfolio-bttnleft:not(:first-child){
+    margin-left: 24px;
+}
+
 .portfolio-bttn:hover,
 .portfolio-bttn:focus{
 
