@@ -39,11 +39,14 @@ body {
 
 /*========== HEADER ==========*/
 
+.header{
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
 .header-nav-container{
     display: flex;
     align-items: center;
-    padding-top: 24px;
-    padding-bottom: 24px;
     border-bottom: 1px solid #E7E9FC;
 }
 
@@ -130,6 +133,8 @@ text-decoration: none;
 
 .container{
     width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -139,15 +144,14 @@ text-decoration: none;
 /*========== MAIN ==========*/
 
 .hero-section-color{
-    width: 1440px;
+    width: 1158px;
     background: #2E2F42;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 
-.hero-section{
-height: 600px;
-}
 
 .hero-title{
 font-family: var(--primary-font);
@@ -157,10 +161,8 @@ line-height: 1.07;
 text-align: center;
 letter-spacing: 0.02em;
 color: #FFFFFF;
-padding-top: 188px;
-padding-left: 320px;
-padding-right: 320px;
-
+max-width: 494px;
+margin: 0px auto;
 }
 
 .hero-button{
@@ -215,10 +217,17 @@ border-radius: 4px;
     color: var(--secondary-color);
 }
 
+.section-two-format{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
 .sectiontwo{
     display: flex;
-   padding-top: 120px;
-   padding-bottom: 120px;
+}
+
+.sectiontwo-item{
+    max-width: 264px;
 }
 
 .sectiontwo-item:not(:first-child){
@@ -226,8 +235,11 @@ border-radius: 4px;
 }
 
 .sectionthree{
-    display: flex;
     padding-bottom: 120px;
+}
+
+.sectionthree-list{
+    display: flex;
 }
 
 .sections-title{
@@ -247,15 +259,17 @@ border-radius: 4px;
         margin-left: 24px;
     }
 
-    .sectionfour{
+.sectionfour{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+    .sectionfour-list{
         display: flex;
-        padding-bottom: 120px;
+
         background: #F4F4FD;
     }
 
-    .our-team-tittle{
-        margin-top: 120px;
-    }
 
     .sectionfour-item:not(:first-child){
         margin-left: 24px;
@@ -296,17 +310,17 @@ color: #E7E9FC;
 }
 
 
-.footer-color{
-    width: 1440px;
-    height: 310px;
+.footer{
+    width: 1158px;
     background: #2E2F42;
     margin-left: auto;
     margin-right: auto;
+padding-top: 100px;
+padding-bottom: 100px;
 }
 
 .footer-content{
-padding-top: 100px;
-padding-right: 879px;
+width: 264px;
 }
 
 /*========== /FOOTER ==========*/
@@ -379,8 +393,7 @@ margin-bottom: 48px;
     }
 
 .section{
-    padding-left: 15px;
-    padding-right: 15px;
+
 }
 
 .potfolio-item-title > .section-title{
