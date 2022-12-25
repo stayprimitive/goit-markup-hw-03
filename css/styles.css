@@ -42,12 +42,12 @@ body {
 .header{
     padding-top: 24px;
     padding-bottom: 24px;
+    border-bottom: 1px solid #E7E9FC;
 }
 
 .header-nav-container{
     display: flex;
     align-items: center;
-    border-bottom: 1px solid #E7E9FC;
 }
 
 .page-nav{
@@ -144,7 +144,7 @@ text-decoration: none;
 /*========== MAIN ==========*/
 
 .hero-section-color{
-    width: 1158px;
+    width:;
     background: #2E2F42;
     margin-left: auto;
     margin-right: auto;
@@ -161,7 +161,7 @@ line-height: 1.07;
 text-align: center;
 letter-spacing: 0.02em;
 color: #FFFFFF;
-max-width: 494px;
+max-width: 496px;
 margin: 0px auto;
 }
 
@@ -311,10 +311,8 @@ color: #E7E9FC;
 
 
 .footer{
-    width: 1158px;
-    background: #2E2F42;
-    margin-left: auto;
-    margin-right: auto;
+width:;
+background: #2E2F42;
 padding-top: 100px;
 padding-bottom: 100px;
 }
